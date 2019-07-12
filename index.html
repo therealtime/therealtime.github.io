@@ -7,11 +7,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", garamond;}
 body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
 }
 
 .vertical-center {
@@ -71,9 +76,6 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -81,16 +83,14 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-bottommiddle">
-		<font color="white" size="5" style="font-family:serif"><b><p>"When something is important enough, you do it even if the odds are not in your favor."
-			Elon Musk</b></p></font>
-    <!--<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>-->
+  <div class="w3-display-bottommiddle" >
+		<font color="white" size="5" style="font-family:garamond"><b><h1>"When something is important enough, you do it even if the odds are not in your favor."</b></h1></font>
+    <font color="white" size="5" style="font-family:garamond"><b><h1 style="text-align:right;">-Elon Musk</b></h1></font>
   </div>
 </div>
 
@@ -108,9 +108,9 @@ body, html {
       <p><b><i class="fa fa-user w3-margin-right"></i>Tyler Bush</b></p><br>
     </div>
 
-    <!-- Hide this text on small devices -->
+    <!-- Hide this text on small devices  TODO solve this for mobikle-->
     <div class="w3-col m6 w3-hide-small w3-padding-64">
-        <p> •	Software system architecture and developing embedded C software</p>
+        <p > •	Software system architecture and developing embedded C software</p>
         <p>•	Experience in XML, Python, and C/C++ programming languages</p>
         <p>  •	NXP T1042RDB quad-core and ARM Cortex-M3 (SmartFusion2 SoC) processors</p>
         <p>  •	Communication buses including PCIe and Ethernet</p>
@@ -118,7 +118,6 @@ body, html {
         <p>  •	Embedded software troubleshooting and analysis utilizing Lauterbach T32 on-chip emulator</p>
         <p>  •	Experience with Eclipse IDE, Linux-based scripting, GNU toolchain, Wireshark, Oscilloscopes, Multi-meters, and PCIe analyzers</p>
         <p>  •	Requirement management using IBM Rational DOORS</p>
-</p>
     </div>
   </div>
 </div>
@@ -161,7 +160,7 @@ body, html {
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-white w3-wide"><font color="white" size="10" style="font-family:garamond"><b><h1>PORTFOLIO</span></font></b></h1>
   </div>
 </div>
 
@@ -221,7 +220,7 @@ body, html {
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide"><font color="white" size="10" style="font-family:garamond"><b><h1>CONTACT</span></font></b></h1>
   </div>
 </div>
 
