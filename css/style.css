@@ -396,12 +396,8 @@ mark,
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto; }
-
 .img-nav {
-  max-width: 60%;
+  max-width: 30%;
   height: auto;
 }
 
@@ -3278,8 +3274,8 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 0.5rem;
-  font-size: 1.25rem;
+  margin-right: 0rem;
+  font-size: 1rem;
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
