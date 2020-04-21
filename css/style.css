@@ -7450,7 +7450,7 @@ h1, h2, h3, h4, h5,
       color: #404044; }
 
 .ftco-navbar-dark {
-        background: transparent !important;
+        background: #000000 !important;
         position: absolute;
         left: 0;
         right: 0;
@@ -7469,7 +7469,7 @@ h1, h2, h3, h4, h5,
           padding-bottom: .9rem;
           padding-left: 20px;
           padding-right: 20px;
-          color: #000000;
+          color: #fff;
           font-weight: 400;
           opacity: 1 !important; }
           .ftco-navbar-dark .navbar-nav > .nav-item > .nav-link:hover {
@@ -8276,7 +8276,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #ee76ad;
+  background: #000000;
   padding: 12em 0 8em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;

@@ -61,8 +61,8 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Security',
-  'Networking',
+  'Encryption',
+  'Computer Vision',
   'Neural Networks',
   'Commercial Hardware'
 ]
