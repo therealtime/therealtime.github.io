@@ -6,13 +6,13 @@ window.addEventListener("scroll", function(){ // or window.addEventListener("scr
       // downscroll code
       if(window.pageYOffset > 150){
         document.getElementById("logo").class = "img-nav";
-        document.getElementById("logo").src = "./images/accelabit2.png";
+        document.getElementById("logo").src = "./images/accelabit2.PNG";
       }
    } else {
       // upscroll code
       if(window.pageYOffset < 150){
         document.getElementById("logo").class = "img-nav";
-        document.getElementById("logo").src = "./images/accelabit.png";
+        document.getElementById("logo").src = "./images/accelabit.PNG";
       }
    }
    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
