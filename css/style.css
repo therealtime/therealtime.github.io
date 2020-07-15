@@ -921,9 +921,8 @@ pre {
     max-width: 100%; }
   .col-md-7 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 58.33333%;
-    flex: 0 0 58.33333%;
-    max-width: 58.33333%; }
+    padding-left: 30%;
+    padding-right: 30%; }
   .col-md-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.66667%;
@@ -6149,7 +6148,8 @@ button.bg-dark:focus {
 
 .mb-2,
 .my-2 {
-  margin-bottom: 0.5rem !important; }
+  margin-bottom: 1rem !important;
+  margin-top: 1rem;}
 
 .ml-2,
 .mx-2 {
@@ -8601,15 +8601,15 @@ textarea.form-control {
 .block-10 .chef-img {
   height: 400px; }
 
-.block-10 .person-info {
+.person-info {
   height: 75px; }
-  .block-10 .person-info span {
+  .person-info span {
     display: block; }
-  .block-10 .person-info .name {
+  .person-info .name {
     font-size: 20px;
     color: #404044;
     font-weight: 400; }
-  .block-10 .person-info .position {
+  .person-info .position {
     font-size: 14px; }
 
 .block-17 form .fields {
