@@ -61,10 +61,9 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'Encryption',
-  'Computer Vision',
-  'Neural Networks',
-  'Commercial Hardware'
+  'Cybersecurity',
+  'Vision',
+  'Dominance'
 ]
 
 const el = document.querySelector('.scramble')
